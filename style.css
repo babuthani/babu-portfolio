@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #1e293b;
+}
+
+.logo {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover,
+.active {
+    color: #38bdf8;
+}
+
+.resume-btn {
+    background: #22c55e;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 60px 80px;
+}
+
+.skills span {
+    background: #1e293b;
+    padding: 8px 12px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
